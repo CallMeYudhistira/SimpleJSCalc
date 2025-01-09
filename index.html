@@ -11,17 +11,17 @@
 </head>
 <body>
     <div>
-        <form action="" method="post">
+        <form id="numberForm" onsubmit="return cekBilangan()">
             <table>
                 <tr>
                     <td>Masukan Angka ke-1</td>
                     <td>:</td>
-                    <td><input type="number" name="angka1"></td>
+                    <td><input type="number" name="number1"></td>
                 </tr>
                 <tr>
                     <td>Masukan Angka ke-2</td>
                     <td>:</td>
-                    <td><input type="number" name="angka2"></td>
+                    <td><input type="number" name="number2"></td>
                 </tr>
                 <tr>
                     <td>Operasi</td>
@@ -43,5 +43,11 @@
             </table>
         </form>
     </div>
+
+    <div id="result" class="result" style="background-color: white;"></div>
+    <span id="numberError" class="error"></span><br><br>
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
