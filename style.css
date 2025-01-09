@@ -1,3 +1,44 @@
 *{
     font-family: "Figtree";
 }
+
+td{
+    padding: 4px;
+}
+
+select{
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 65px;
+    border-radius: 10px;
+}
+
+input{
+    padding: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 5px;
+    padding-left: 63px;
+    padding-right: 63px;
+    background-color: #efefff;
+    border-radius: 10px;
+}
+
+div{
+    display: flex;
+    padding: 20px;
+    margin-left: 34%;
+    margin-right: 34.5%;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: #6e9faf;
+}
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
