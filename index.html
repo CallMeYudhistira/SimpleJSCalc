@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,47 +8,49 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <div>
-        <form id="numberForm" onsubmit="return cekBilangan()">
-            <table>
-                <tr>
-                    <td>Masukan Angka ke-1</td>
-                    <td>:</td>
-                    <td><input type="number" name="number1"></td>
-                </tr>
-                <tr>
-                    <td>Masukan Angka ke-2</td>
-                    <td>:</td>
-                    <td><input type="number" name="number2"></td>
-                </tr>
-                <tr>
-                    <td>Operasi</td>
-                    <td>:</td>
-                    <td>
-                        <select name="operasi" id="operasi">
-                            <option value="+">+</option>
-                            <option value="-">-</option>
-                            <option value="*">*</option>
-                            <option value="/">/</option>
-                        </select>
-                    </td>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td><input type="submit" value="Hitung"  class="btn"></td>
-                    </tr>
-                </tr>
-            </table>
-        </form>
+        <table>
+            <tr>
+                <td>Masukan Angka ke-1</td>
+                <td>:</td>
+                <td><input type="number" name="number1"></td>
+            </tr>
+            <tr>
+                <td>Masukan Angka ke-2</td>
+                <td>:</td>
+                <td><input type="number" name="number2"></td>
+            </tr>
+            <tr>
+                <td>Operasi</td>
+                <td>:</td>
+                <td>
+                    <select id="operasi">
+                        <option value="">Pilih Operasi</option>
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+                </td>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><button onclick="cekBilangan()" class="btn">Hitung</button></td>
+            </tr>
+            </tr>
+        </table>
     </div>
 
-    <div id="result" class="result" style="background-color: white;"></div>
-    <span id="numberError" class="error"></span><br><br>
+    <div id="result" class="result"></div>
 
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
