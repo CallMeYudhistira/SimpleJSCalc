@@ -35,5 +35,7 @@ function cekBilangan() {
         resultDiv.innerHTML = "Hasil Tidak Valid";
     }
 
+    resultDiv.style.display = "block";
+
     return false;
 }

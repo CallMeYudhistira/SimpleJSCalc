@@ -1,5 +1,8 @@
-body {
+*{
     font-family: "Figtree";
+}
+
+body {
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
@@ -10,16 +13,23 @@ body {
 
 .container {
     background: white;
-    padding: 20px;
+    padding: 20px 30px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input, select, button {
+h1{
+    text-align: center;
+}
+
+input, select, button, #result {
     margin: 10px 0;
-    padding: 10px;
+    padding: 14px 10px;
     width: 100%;
     box-sizing: border-box;
+    border-radius: 6px;
+    border: none;
+    outline: 1px solid #bbb;
 }
 
 button {
