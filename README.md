@@ -1,7 +1,11 @@
-# Simple Arithmetic Calculator
+# Simple Arithmetic Calculator ✨
 
 A simple web-based arithmetic calculator built using **HTML**, **CSS**, and **JavaScript**.  
 This application performs basic mathematical operations such as addition, subtraction, multiplication, and division.
+
+## Testing
+
+👉 [SimpleJSCalc](https://callmeyudhistira.github.io/SimpleJSCalc/) 👈
 
 ## Features
 
@@ -33,7 +37,7 @@ calculator/
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/simple-arithmetic-calculator.git
+   git clone https://github.com/your-username/SimpleJSCalc.git
    ```
 2. Open the project folder.
 3. Run the application by opening `index.html` in your web browser.
@@ -67,4 +71,4 @@ You are free to use, modify, and distribute this project for learning or develop
 ## Author
 
 **Yudhistira**  
-Student & Web Developer
+Student
